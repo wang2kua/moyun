@@ -57,6 +57,12 @@
             transform: translateY(-3px);
             box-shadow: 0 15px 40px rgba(233, 69, 96, 0.5);
         }
+        .buttons { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        .web-btn {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .web-btn:hover { box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5); }
         .version {
             margin-top: 15px;
             color: #666;
@@ -112,10 +118,15 @@
         <h1>墨韵</h1>
         <p class="tagline">让古诗词学习变得简单有趣</p>
         
-        <a href="https://github.com/wang2kua/moyun/releases/download/v1.0.0/app-release.apk" class="download-btn">
-            📱 下载 Android 版
-        </a>
-        <p class="version">v1.0.0 · 48MB</p>
+        <div class="buttons">
+            <a href="https://github.com/wang2kua/moyun/releases/download/v1.0.0/app-release.apk" class="download-btn">
+                📱 下载 Android 版
+            </a>
+            <a href="./app/" class="download-btn web-btn">
+                🌐 访问网页版
+            </a>
+        </div>
+        <p class="version">v1.0.0</p>
 
         <div class="features">
             <div class="feature">
