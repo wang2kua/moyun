@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>墨韵 - 古诗词学习</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #e94560, #f39c12);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .tagline {
+            font-size: 20px;
+            color: #a0a0a0;
+            margin-bottom: 40px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 18px 50px;
+            font-size: 20px;
+            color: #fff;
+            background: linear-gradient(90deg, #e94560, #f39c12);
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(233, 69, 96, 0.5);
+        }
+        .version {
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.05);
+            padding: 30px 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s;
+        }
+        .feature:hover { transform: translateY(-5px); }
+        .feature-icon { font-size: 40px; margin-bottom: 15px; }
+        .feature h3 { font-size: 18px; margin-bottom: 10px; }
+        .feature p { color: #a0a0a0; font-size: 14px; line-height: 1.6; }
+        .poem-quote {
+            margin-top: 60px;
+            padding: 30px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 15px;
+            border-left: 4px solid #e94560;
+        }
+        .poem-quote p {
+            font-size: 18px;
+            line-height: 2;
+            color: #ccc;
+            font-style: italic;
+        }
+        .poem-quote .author {
+            margin-top: 15px;
+            color: #888;
+            font-size: 14px;
+        }
+        footer {
+            margin-top: 60px;
+            color: #555;
+            font-size: 14px;
+        }
+        footer a { color: #e94560; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">📜</div>
+        <h1>墨韵</h1>
+        <p class="tagline">让古诗词学习变得简单有趣</p>
+        
+        <a href="https://github.com/wang2kua/moyun/releases/download/v1.0.0/app-release.apk" class="download-btn">
+            📱 下载 Android 版
+        </a>
+        <p class="version">v1.0.0 · 48MB</p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📚</div>
+                <h3>海量诗词</h3>
+                <p>收录小学至初中必背古诗词，覆盖各年级教材</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎯</div>
+                <h3>背诵模式</h3>
+                <p>智能填空练习，轻松掌握每一首诗词</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⭐</div>
+                <h3>收藏夹</h3>
+                <p>收藏喜欢的诗词，随时复习</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>学习进度</h3>
+                <p>追踪学习进度，见证成长</p>
+            </div>
+        </div>
+
+        <div class="poem-quote">
+            <p>腹有诗书气自华</p>
+            <p class="author">—— 苏轼《和董传留别》</p>
+        </div>
+
+        <footer>
+            <p>开源项目 · <a href="https://github.com/wang2kua/moyun">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
