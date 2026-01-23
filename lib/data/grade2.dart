@@ -41,7 +41,7 @@ final List<Poem> grade2Poems = [
   Poem(id: 'x2-07', title: '敕勒歌', author: '北朝民歌', dynasty: '南北朝',
     content: '敕勒川，阴山下。\n天似穹庐，笼盖四野。\n天苍苍，野茫茫，\n风吹草低见牛羊。',
     pinyin: 'chì lè chuān, yīn shān xià.\ntiān sì qióng lú, lǒng gài sì yě.\ntiān cāng cāng, yě máng máng,\nfēng chuī cǎo dī xiàn niú yáng.',
-    translation: '敕勒平原在阴山脚下，天空像圆顶帐篷笼罩四野。风吹草低露出牛羊。',
+    translation: '辽阔的敕勒大平原，就在阴山脚下。天空像圆顶的毡帐，笼罩着草原的四面八方。天空是青苍蔚蓝的颜色，草原无边无际辽阔苍茫。当风儿吹过，牧草低伏，露出了遍地的牛群和羊群。',
     annotation: '穹庐：毡帐。见：同"现"。',
     tags: ['写景', '草原'], grade: 2, type: '乐府诗', semester: 1),
   // 二年级下册 (21-27)

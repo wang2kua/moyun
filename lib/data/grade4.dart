@@ -78,7 +78,7 @@ final List<Poem> grade4Poems = [
   Poem(id: 'x4-13', title: '清平乐·村居', author: '辛弃疾', dynasty: '宋',
     content: '茅檐低小，\n溪上青青草。\n醉里吴音相媚好，\n白发谁家翁媪？\n\n大儿锄豆溪东，\n中儿正织鸡笼。\n最喜小儿亡赖，\n溪头卧剥莲蓬。',
     pinyin: 'máo yán dī xiǎo,\nxī shàng qīng qīng cǎo.\nzuì lǐ wú yīn xiāng mèi hǎo,\nbái fà shéi jiā wēng ǎo?\n\ndà ér chú dòu xī dōng,\nzhōng ér zhèng zhī jī lóng.\nzuì xǐ xiǎo ér wáng lài,\nxī tóu wò bō lián péng.',
-    translation: '茅屋低小，溪边青草茵茵。醉里吴音相互逗趣，白发是谁家老翁老妇？大儿在溪东锄豆，二儿在编鸡笼。最喜小儿顽皮，溪头卧剥莲蓬。',
+    translation: '茅草屋的屋檐又低又小,小溪旁边长满了青青的草。带着醉意用家乡话互相亲热地聊天,满头白发的是谁家的老爷爷和老奶奶呢？大儿子在小溪东边的豆田里锄草,二儿子正在编织鸡笼。最讨人喜欢的是小儿子顽皮淘气,趴在溪边剥着莲蓬吃。',
     annotation: '吴音：吴地方言。媚好：逗趣。亡赖：顽皮。',
     tags: ['田园', '童趣', '家庭'], grade: 4, type: '词', semester: 2),
   Poem(id: 'x4-14', title: '卜算子·咏梅', author: '毛泽东', dynasty: '现代',
