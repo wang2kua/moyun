@@ -4,7 +4,9 @@
 
 ## 下载
 
-📱 **[点击下载 Android APK](https://github.com/wang2kua/moyun/releases/download/v1.0.0/app-release.apk)**
+📱 **[Android APK 下载](https://github.com/wang2kua/moyun/releases/download/v1.1.0/app-release.apk)**
+
+🌐 **[网页版](https://wang2kua.github.io/moyun/)**
 
 ## 功能
 
@@ -20,4 +22,5 @@
 
 ## 版本历史
 
+- v1.1.0 - 修复诗词数据（浣溪沙、关雎、蒹葭、满江红）
 - v1.0.0 - 首次发布
